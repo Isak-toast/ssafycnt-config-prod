@@ -42,13 +42,13 @@ spring:
   #   sampler:
   #   probability: 1.0
   datasource:
-    url: jdbc:mysql://172.26.2.118:3307/userdb?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://172.26.2.118:3307/user?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 1234
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: validate
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
