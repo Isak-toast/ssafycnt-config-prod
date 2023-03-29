@@ -34,8 +34,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
-      namimg:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      
 
 
   # data:

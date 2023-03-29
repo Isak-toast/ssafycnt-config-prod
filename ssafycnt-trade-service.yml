@@ -34,6 +34,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
+      namimg:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
   # data:
   #   mongodb:
   #     uri: mongodb://172.31.0.183:27017/ssafycnt
