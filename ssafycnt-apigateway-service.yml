@@ -4,7 +4,7 @@ server:
   ssl:
     enabled: true
     key-store-password: noinjung90!
-    key-store: classpath:keystore.p12
+    key-store: classpath:ssl/keystore.p12
     key-store-type: PKCS12
 
 # swagger:
